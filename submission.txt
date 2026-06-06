@@ -1,0 +1,16 @@
+# ================================================================
+#  SUBMISSION — ETL Pipeline (Belajar Fundamental Pemrosesan Data)
+# ================================================================
+
+# Menjalankan skrip ETL pipeline
+python3 main.py
+
+# Menjalankan unit test pada folder tests
+python3 -m pytest tests
+
+# Menjalankan test coverage pada folder tests
+coverage run -m pytest tests
+coverage report -m
+
+# URL Google Sheets:
+https://docs.google.com/spreadsheets/d/your-spreadsheet-id-here/edit
